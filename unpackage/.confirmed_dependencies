@@ -1,0 +1,88 @@
+{
+	"index.html": {
+		"resources": [
+			"css/common.css",
+			"js/update.js",
+			"js/shortcut.js",
+			"js/immersed.js"
+		],
+		"refer": [
+			"plus/orientation.html",
+			"plus/file.html",
+			"plus/gallery.html",
+			"plus/geolocation.html",
+			"plus/message.html",
+			"plus/xhr.html",
+			"plus/njs.html",
+			"plus/storage.html",
+			"plus/audio.html",
+			"plus/accelerometer.html",
+			"plus/device.html",
+			"plus/downloader.html",
+			"plus/barcode.html",
+			"plus/camera.html",
+			"plus/events.html",
+			"plus/maps.html",
+			"plus/nativeui.html",
+			"plus/runtime.html"
+		]
+	},
+	"plus/orientation.html": {
+		"resources": [
+			"js/common.js"
+		]
+	},
+	"plus/file.html": {
+		"resources": [
+			"img/fdisk.png",
+			"img/fup.png",
+			"img/ffile.png",
+			"img/fdir.png"
+		]
+	},
+	"plus/njs.html": {
+		"refer": [
+			"plus/njs_efficient.html"
+		]
+	},
+	"plus/storage.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	},
+	"plus/accelerometer.html": {
+		"resources": [
+			"js/common.js"
+		]
+	},
+	"plus/barcode.html": {
+		"resources": [
+			"img/barcode.png"
+		]
+	},
+	"plus/maps_map.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js",
+			"plus/maps_map_sub.html"
+		],
+		"refer": [
+			"plus/maps_map_sub.html"
+		]
+	},
+	"plus/maps.html": {
+		"refer": [
+			"plus/maps_map.html"
+		]
+	},
+	"plus/nativeui.html": {
+		"resources": [
+			"js/common.js",
+			"css/common.css",
+			"js/immersed.js"
+		]
+	}
+}
